@@ -1,0 +1,78 @@
+# Flutter/Dart related
+**/build/
+**/.dart_tool/
+**/.pub-cache/
+**/.packages
+**/generated_plugin_registrant.dart
+
+# Android related
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+android/app/src/debug/
+android/app/src/profile/
+android/app/src/androidTest/
+android/app/src/test/
+android/gradle/wrapper/gradle-wrapper.properties
+
+# iOS related
+ios/.generated/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Debug.xcconfig
+ios/Flutter/Release.xcconfig
+ios/Pods/
+ios/.build/
+ios/Runner.xcworkspace/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/GeneratedPluginRegistrant.*
+
+# Web related
+web/.dart_tool/
+web/build/
+
+# macOS related
+macos/.dart_tool/
+macos/Pods/
+macos/.build/
+macos/.symlinks/
+macos/Flutter/GeneratedPluginRegistrant.*
+
+# Windows related
+windows/.dart_tool/
+windows/.build/
+windows/Flutter/GeneratedPluginRegistrant.*
+
+# Linux related
+linux/.dart_tool/
+linux/.build/
+linux/Flutter/GeneratedPluginRegistrant.*
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+
+# Miscellaneous
+*.lock
+*.log
+*.tmp
+*.swp
+*.DS_Store
+*.class
+*.project
+*.pyc
+*.pyo
+*.jar
+*.war
+*.ipynb
+*.apk
+*.ap_
