@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'MarineLife.dart';
 import 'upcoming_events.dart';
-import 'home.dart'; // Import the Home page
+import 'home.dart';
+import 'marine_pollution_insight_screen.dart';
 
 class OceanicCareHomePage extends StatelessWidget {
   const OceanicCareHomePage({super.key});
@@ -56,7 +57,7 @@ class OceanicCareHomePage extends StatelessWidget {
                       context,
                       'Pollution insights',
                       'assets/images/pollution.png',
-                      isSeafoodCard: false,
+                      isSeafoodCard: false, // Pollution Insights card
                     ),
                   ),
                 ],
@@ -211,6 +212,13 @@ class OceanicCareHomePage extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => const Home()),
+          );
+        } else {
+          // Navigate to the marine pollution insight screen
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => const MarinePollutionInsightScreen()),
           );
         }
       },

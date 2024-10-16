@@ -83,6 +83,11 @@ flutter:
     - assets/images/seafood.png
     - assets/images/moratuwa.png
     - assets/images/crab.png
+    - assets/plastic.jpeg
+    - assets/oil.jpeg
+    - assets/ship.jpeg
+    - assets/sewage.jpeg
+    - assets/polution_turtle.jpg
     # - assets/goldFish.png
     # - assets/ButterflyFish.png
     # - assets/normalFish.png
